@@ -1,0 +1,67 @@
+{
+  "name": "the-tradooor",
+  "version": "1.0.0",
+  "description": "Intelligent Solana token trading bot with ML-powered signals, MEV protection, and sophisticated risk management",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist coverage"
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "bot",
+    "automation",
+    "cryptocurrency",
+    "defi",
+    "ml",
+    "machine-learning",
+    "technical-analysis",
+    "mev",
+    "risk-management"
+  ],
+  "author": "Reinasboo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reinasboo/the-tradooor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reinasboo/the-tradooor/issues"
+  },
+  "homepage": "https://github.com/Reinasboo/the-tradooor#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.3",
+    "@solana/web3.js": "^1.87.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "pino": "^8.16.0",
+    "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
