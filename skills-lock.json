@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "gmgn-cooking": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "c1ae501b9a11a96cf9432296e481961f575068bbe6e9b26a159908d5356111ba"
+    },
+    "gmgn-market": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "80e9a870d54f89d5f8bc7f615fdc4dde935f74e676325e79f9c85bf5086588cb"
+    },
+    "gmgn-portfolio": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "92aaf5c1e80e8fff41d1c8817d1a381ca74f78bc14f426f01eedd567b72425fe"
+    },
+    "gmgn-swap": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "383a6476515d8dce05c95903fa86da845ad38179f4f1a54e8cfb2ca35c420934"
+    },
+    "gmgn-token": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "d5d78de5f8e43becbd7a6ba71ebe3ec7198cd328988b4646f102e3344e1d58ca"
+    },
+    "gmgn-track": {
+      "source": "GMGNAI/gmgn-skills",
+      "sourceType": "github",
+      "computedHash": "eac8d63eeba4b7a2a0cbb68c659b22e85bb212e07f74050c2c294734eafd5feb"
+    }
+  }
+}
