@@ -59,7 +59,7 @@ export class ExitManager {
           }
           break;
 
-        case 'trailing-stop':
+        case 'trailing-stop': {
           // Trailing stop: exit if price drops X% from high
           const drawdownPercent =
             ((position.highWaterMark - position.currentPrice) / position.highWaterMark) * 100;
@@ -69,6 +69,7 @@ export class ExitManager {
             exitPrice = position.currentPrice;
           }
           break;
+        }
 
         case 'time-based':
           // Exit after hold time
