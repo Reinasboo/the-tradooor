@@ -77,6 +77,14 @@ src/
 ├── logger.ts                          # Logging infrastructure
 ├── notifications.ts                   # Alert system
 │
+test/                                  # Comprehensive test suite (143 tests)
+├── indicators.test.ts                 # Technical indicators validation
+├── bot-workflow.test.ts               # Signal detection & filtering
+├── exit-strategy.test.ts              # Exit rules & position management
+├── position-sizing.test.ts            # Kelly Criterion & risk sizing
+├── mev-protection.test.ts             # Front-run risk & Jito protection
+└── gmgn-integration.test.ts           # API contract validation
+│
 ├── indicators/
 │   └── technical.ts                   # 9 Technical indicators
 │       ├── RSI                        # Relative Strength Index

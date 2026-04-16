@@ -40,6 +40,13 @@ The Solana packages have specific peer dependency constraints. This flag allows 
 
 **Installation time:** ~2-5 minutes depending on internet speed
 
+**Verify installation:**
+```bash
+npm test
+# Should output: Test Suites: 6 passed, 6 total
+#               Tests: 143 passed, 143 total
+```
+
 ---
 
 ## Step 3: Get API Credentials

@@ -112,10 +112,16 @@ npm start          # Run compiled code (production)
 
 ### Testing
 ```bash
-npm test           # Run test suite (4/4 should pass)
-npm run test:watch # Run tests on file changes
-npm run test:coverage # Generate coverage report
+npm test           # Run full test suite (143/143 tests pass)
+npm test -- --testPathPattern="mev"    # Run specific test suite
+npm test -- --coverage                  # Generate coverage report
 ```
+
+**Test Suite Overview:**
+- ✅ **143 tests** covering all core components
+- ✅ **6 test suites**: indicators, bot-workflow, exit-strategy, position-sizing, mev-protection, gmgn-integration
+- ✅ **Full coverage** of trading signals, risk management, MEV protection, and API integration
+- ✅ **Runs in ~7-15 seconds**
 
 ### Code Quality
 ```bash
